@@ -104,7 +104,7 @@ break;
 
 case '5':
 
-printf("BYE\n");
+printf("BYE :)\n");
 
 
 
