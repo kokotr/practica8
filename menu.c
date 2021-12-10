@@ -113,7 +113,8 @@ break;
 
 
 
-default:printf("invalid option");
+default:printf("invalid option :(");
+
 }
 
 
