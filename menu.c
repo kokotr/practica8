@@ -55,12 +55,12 @@ print(number1,number2,c);
 
 
 
-void selection(int option){
+void selection(char *opt){
 
 int c;
 
 
-switch(option){
+switch(*opt){
 
 case '1':
 system("clear");
@@ -68,7 +68,7 @@ printf("***ADD***\n");
 
 c=1;
 date(c);
-option=' ';
+
 
 break;
 
@@ -141,11 +141,16 @@ int main(){
 
 char option;
 
+char *opt;
+
+opt=&option;
+
 menu();
+
 
 scanf("%c",&option);
 
-selection(option);
+selection(opt);
 
 
 
