@@ -40,6 +40,7 @@ void date(int c){
 
 
 float number1,number2;
+
 printf("give the first number?:");
 
 scanf("%g",&number1);
